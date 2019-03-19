@@ -12,6 +12,12 @@ docker build -t raneto:local .
 docker run -it -p 4000:4000 raneto:local
 ```
 
+Run it with my example articles:
+
+```
+docker run -it -p 3000:3000 -v $PWD/content:/app/example/content raneto:local
+```
+
 Run it standalone:
 
 ```
@@ -75,5 +81,19 @@ This is more text.
 **NOTE: this is a note**
 
 ```
+
+## Screenshots
+
+Homepage:
+
+![image](https://user-images.githubusercontent.com/567298/54615966-a6adb680-4a67-11e9-8e65-13d66d1e14b6.png)
+
+Search:
+
+![image](https://user-images.githubusercontent.com/567298/54616063-cba22980-4a67-11e9-9be5-db0e11aa39bc.png)
+
+Article:
+
+![image](https://user-images.githubusercontent.com/567298/54616108-dd83cc80-4a67-11e9-8a02-4fea615fdbca.png)
 
 For more information see: [raneto.com](http://raneto.com/)
