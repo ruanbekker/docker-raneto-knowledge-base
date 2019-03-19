@@ -57,28 +57,13 @@ cat example/content/tutorials/deploying-raneto-on-docker.md
 
 /*
 Title: Deploying Raneto on Docker
+Description: Content is visible for search
 Sort: 1
 */
 
-[Title to link](https://example.com) this is some text describing the link.
+## Markdown
 
-## Heading 
-
-This is more text and below some numbered points:
-
-1. This is describing the path linked: [installed](%base_url%/install/installing-raneto) .
-2. Then this is describing an external link: [Example Text](https://example.com)
-
-## Heading 2
-
-some `bash` commands. 
-
-    $ var = "hello"
-    $ echo "${var}"
-
-This is more text.
-
-**NOTE: this is a note**
+Your markdown here
 
 ```
 
